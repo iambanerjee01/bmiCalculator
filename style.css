@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+body {
+    background: #3C3B3F;
+
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    font-family: 'Yusei Magic',
+    sans-serif;
+}
+.container {
+    background-color: aliceblue;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px #1d1d1d;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main {
+    margin-top: 10vh;
+}
+h2 {
+    font-size: 2rem;
+    padding: 25px;
+}
+.weight {
+    font-size: 1.5rem;
+}
+.height {
+    font-size: 1.5rem;
+}
+#weight {
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 5px;
+    color: bisque;
+    font-family: inherit;
+    font-size: 1.25rem;
+    width: 100px;
+}
+#height {
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 5px;
+    color: bisque;
+    font-family: inherit;
+    font-size: 1.25rem;
+    width: 100px;
+}
+
+#submit {
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #3d3d3d;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: bisque;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#submit:hover {
+    background-color: black;
+}
+.paragraph {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
